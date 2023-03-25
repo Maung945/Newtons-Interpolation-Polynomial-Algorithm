@@ -100,14 +100,14 @@ int main()
         {
             cout << " " << setprecision(23) << elem;
         }
-        cout << endl;
+        cout << endl << endl;
 
         cout << "Y-Coefficient:";
         for (auto elem : ycoeff)
         {
             cout << " " << setprecision(23) << elem;
         }
-        cout << endl;
+        cout << endl << endl;
         auto start = chrono::high_resolution_clock::now();
         Coeff(xcoeff, ycoeff, cs);
         cout << "Enter the value to evaluate the polynomial: ";
